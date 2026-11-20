@@ -1,0 +1,22 @@
+"""P1 -> starts writing the news article
+    P2 -> starts creating the thumbnail for YouTube
+    P3 -> starts drafting"""
+
+"""FanOut   --- The Splitter       /
+                            start /
+                                  \
+                                   \
+""""""
+    FanIn   --- The Merger
+                          \  
+                           \ 
+                             END
+                            /
+                           /
+            O
+        /   |   \
+      0   -0--    0     Parallel Workflow
+       \    |      /
+            0
+    """
+
